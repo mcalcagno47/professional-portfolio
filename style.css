@@ -67,7 +67,8 @@ body {
 #menu-background-image {
     background-image: url(./assets/images/portfolio-picture-1.jpg);
     background-position: center 40%;
-    background-size: 110vmax;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100%;
     left: 0px;
     opacity: 0.15;
@@ -84,7 +85,7 @@ body {
 }
 
 #menu-items:hover ~ #menu-background-image {
-    background-size: 100vmax;
+    background-size: cover;
     opacity: 0.1;
 }
 
