@@ -5,3 +5,16 @@ Array.from(document.getElementsByClassName("menu-item")).forEach((item, index) =
         menu.dataset.activeIndex = index;
     }
 });
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        } else {
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
