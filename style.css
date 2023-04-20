@@ -138,65 +138,22 @@ h4 {
     text-shadow: 2px 2px 2px black; 
 }
 
-.my-name {
-    text-align: left;
-    list-style: none;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-top: 35px;
-    padding-left: 36px;
-    padding-right: 36px;
-}
-
-.nav {
-    justify-content: right;
-    margin: auto;
-} 
-
-.nav-tabs .nav-link {
-    border-left: 1pt solid white;
-    border-radius: 0%;
-}
-
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    background-color: rgb(209, 140, 154);
-    color: black;
-    border: 1pt solid white;
-}
-
-.nav-tabs {
-    border: none;
-}
-
-.nav-tabs:hover {
-    border: none;
-}
-
-.nav-item.show {
-    background-color: rgb(140, 156, 151);
-    border: none;
-}
-
-.nav-link {
-    color: white;
-    border: none;
-}
-
-.nav-link:hover {
-    background-color: rgb(140, 156, 151);
-    border-left: 1pt solid white;
-    color: white;
-}
-
-.nav-link:active {
-    color: black;
-}
-
 .info-container {
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    border: inset 2pt gray;
+}
+
+.info-container-portfolio {
     margin: 60px;
     padding: 1rem;
     border-radius: 10px;
     color: white;
+    border: inset 2pt gray;
 }
 
 .info-container a {
@@ -309,7 +266,12 @@ h4 {
 .hidden {
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.hidden-border {
+    opacity: 0;
+    filter: blur(5px);
     transition: all 1s;
 }
 
@@ -359,7 +321,7 @@ h4 {
     .hidden {
         transition: none;
     }
-    
+
 }
 
 @media screen and (max-width: 300px) {
