@@ -220,25 +220,35 @@ h4 {
     justify-content: center;
 }
 
+.portfolio-link:nth-child(1) {
+    transition-delay: 600ms;
+    transition: 1s;
+}
+
 .portfolio-link:nth-child(2) {
-    transition-delay: 200ms;
+    transition-delay: 6060ms;
+    transition: 1s;
 }
 
 .portfolio-link:nth-child(3) {
-    transition-delay: 400ms;
+    transition-delay: 600ms;
+    transition: 1s;
 }
 
 .portfolio-link:nth-child(4) {
     transition-delay: 600ms;
+    transition: 1s;
 }
 
 .portfolio-link:nth-child(5) {
-    transition-delay: 800ms;
+    transition-delay: 600ms;
+    transition: 1s;
 }
 
-/* .portfolio-link:nth-child() {
-    transition-delay: 200ms;
-} */
+.portfolio-link:nth-child(6) {
+    transition-delay: 1200ms;
+    transition: 1s;
+}
 
 .portfolio-image {
     text-align: center;
@@ -346,6 +356,10 @@ h4 {
         height: 200px;
     }
 
+    .hidden {
+        transition: none;
+    }
+    
 }
 
 @media screen and (max-width: 300px) {
@@ -359,6 +373,10 @@ h4 {
 
     .portfolio-image {
         width: 150px;
+    }
+
+    .hidden {
+        transition: none;
     }
 
 }

@@ -9,14 +9,14 @@
 </head>
 <body>
 
-    <div class='info-container hidden'>
-        <h1 id="aboutMe">About Me</h1>
-            <p>
+    <div class='info-container'>
+        <h1 id="aboutMe" class="hidden">About Me</h1>
+            <p class="hidden">
                 After teaching math in the Chicago Public School system for 7 years, I discovered a love and aptitude for coding languages, specifically the logic of the back-end.  After researching assorted avenues for learning, I 
                 applied and was accepted to Northwestern University’s coding boot-camp, put on by Trilogy.  For 6 months, I taught during the day and coded at night, learning every language and concept put in front of me.  
                 I’m a dedicated worker, a quick learner, and ready to add my experience and expertise to any team I work on.
             </p>
-            <section class="reference">
+            <section class="reference hidden">
                 <div class="referenceContent">
                     <p>                
                         <a href="https://github.com/mcalcagno47">
@@ -39,89 +39,93 @@
           <section>
               <h4 id="my-work"></h4>
               <figure class="gallery">
-                  <div href="https://morning-wildwood-88697.herokuapp.com/" class="portfolio-link">
-                      <img src="assets/images/TimeWellSpent.png" alt="app that allows charities and users to " class="portfolio-image-Proj" />
-                  </div>
-                  <div href="https://so-bad-its-good.herokuapp.com/" class="portfolio-link">
+                  <a href="https://morning-wildwood-88697.herokuapp.com/" class="portfolio-link hidden">
+                    <div>
+                      <img src="assets/images/TimeWellSpent.png" alt="app that allows charities and users to " class="portfolio-image-Proj"/>
+                    </div>
+                  </a>
+                  <a href="https://so-bad-its-good.herokuapp.com/" class="portfolio-link hidden">
                       <img src="assets/images/SoBadItsGood.png" alt="movie review site that allows users to rate film quality and fun factor" class="portfolio-image-Proj"/>
-                  </div>
-                  <div href="https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/" class="portfolio-link">
+                  </a>
+                  <a href="https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/" class="portfolio-link hidden">
                       <img src="assets/images/CardsAgainstApathyScreenshot.png" alt="workout app using cards and poker chips" class="portfolio-image-Proj"/>
-                  </div>
-                  <div href="https://calcagno-tech-blog.herokuapp.com/" class="portfolio-link">
+                  </a>
+                  <a href="https://calcagno-tech-blog.herokuapp.com/" class="portfolio-link hidden">
                       <img src="assets/images/techblog.png" alt="tech-blog" class="portfolio-image"/>
-                  </div>
-                  <div href="https://note-taker-calcagno.herokuapp.com/" class="portfolio-link">
+                  </a>
+                  <a href="https://note-taker-calcagno.herokuapp.com/" class="portfolio-link hidden">
                       <img src="assets/images/notetaker.png" alt="note-taker" class="portfolio-image"/>
-                  </div>
+                  </a>
               </figure>
           </section>
       </div>
 
 
-      <div class="info-container hidden">
-        <h1 id="Resume">Resume</h1>
-        
-        <a
-            class="button is-primary"
-            href="/assets/mark-calcagno-resume.pdf"
-            target="_blank" rel="noreferrer"
-          >
-            <span class="icon">
-              <i class="fas fa-download"></i>
-            </span>
-            <span>DOWNLOAD MY RESUME</span>
-          </a>
-  
-        <h4>Education Experience and Certification Areas</h4>
-          <ul>
-            <li>Northwestern Bootcamp: attended from September 2022 to March 2023</li>
-            <li>Coding Certificate</li>
-            <li>Northeastern Illinois University: attended from August, 2009 to December, 2014</li>
-            <li>Bachelor’s degree</li>
-            <li>Elementary Education Certificate, Middle Level Education Certificate </li>
-          </ul>
-        
-        <h4>Coding Experience</h4>
-          <p>Part time student, Northwestern Illinois University, Coding Boot Camp, September 2022 to March 2023</p>
-          <ul>
-            <li>Front-end and back-end web development training</li>
-            <li>Coding languages learned but not limited to:</li>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>SQL</li>
-                <li>Model View Controllers</li>
-                <li>API integration</li>
-                <li>Progressive Web Applications</li>
-                <li>MongoDB</li>
-                <li>React</li>
-              </ul>
-            <li>Created web applications including, but not limited to:</li>
-              <ul>
-                <li>Movie Review Website</li>
-                <li>Poker themed workout application</li>
-                <li>Social Network API creation</li>
-                <li>Database creation</li>
-                <li>Interactive Quiz</li>
-                <li>Daily Calendar</li>
-                <li>Weather Forecast</li>
-              </ul>
-            <li>Achieved a final grade of A</li>
-          </ul>
-        
-        <h4>Teaching Experience</h4>
-          <p>Middle School Math teacher, Peter Reinberg Elementary, Chicago Public Schools, August of 2015 to Present</p>
-          <p>Full time teacher, St. James, Highwood, IL, February 2015 to June 2015</p>
-  
-        <h4>Additional Employment History</h4>
+      <div class="info-container">
+        <h1 id="Resume" class="hidden">Resume</h1>
+
+        <div class="hidden">
+          <h4>Education Experience and Certification Areas</h4>
+            <ul>
+              <li>Northwestern Bootcamp: attended from September 2022 to March 2023</li>
+              <li>Coding Certificate</li>
+              <li>Northeastern Illinois University: attended from August, 2009 to December, 2014</li>
+              <li>Bachelor’s degree</li>
+              <li>Elementary Education Certificate, Middle Level Education Certificate </li>
+            </ul>
+        </div>
+
+        <div class="hidden">
+          <h4>Coding Experience</h4>
+            <p>Part time student, Northwestern Illinois University, Coding Boot Camp, September 2022 to March 2023</p>
+            <ul>
+              <li>Front-end and back-end web development training</li>
+              <li>Coding languages learned but not limited to:</li>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>SQL</li>
+                  <li>Model View Controllers</li>
+                  <li>API integration</li>
+                  <li>Progressive Web Applications</li>
+                  <li>MongoDB</li>
+                  <li>React</li>
+                </ul>
+              <li>Created web applications including, but not limited to:</li>
+                <ul>
+                  <li>Movie Review Website</li>
+                  <li>Poker themed workout application</li>
+                  <li>Social Network API creation</li>
+                  <li>Database creation</li>
+                  <li>Interactive Quiz</li>
+                  <li>Daily Calendar</li>
+                  <li>Weather Forecast</li>
+                </ul>
+              <li>Achieved a final grade of A</li>
+            </ul>
+        </div>
+
+        <div class="hidden">
+          <h4>Teaching Experience</h4>
+            <p>Middle School Math teacher, Peter Reinberg Elementary, Chicago Public Schools, August of 2015 to Present</p>
+            <p>Full time teacher, St. James, Highwood, IL, February 2015 to June 2015</p>
+        </div>
+
+        <div class="hidden">        
+          <h4>Additional Employment History</h4>
           <p>University Technology Services Student Worker, Northeastern Illinois University, Chicago, IL, August of 2011 to August of 2014.</p>
           <p>Server and Manager, Porretta’s Elegant Banquets, Chicago, IL, August of 2007 to April of 2011.</p>
-  
-        <h4>Refrences provided upon request</h4>
+        </div>
+
+        <h4 class="hidden">Refrences provided upon request</h4>
+      
+        <a class="button is-primary hidden" href="/assets/mark-calcagno-resume.pdf" target="_blank" rel="noreferrer">
+          <span class="hidden">DOWNLOAD MY RESUME</span>
+        </a>
+      
       </div>  
 
 </body>
