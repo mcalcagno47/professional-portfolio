@@ -220,6 +220,26 @@ h4 {
     justify-content: center;
 }
 
+.portfolio-link:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.portfolio-link:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.portfolio-link:nth-child(4) {
+    transition-delay: 600ms;
+}
+
+.portfolio-link:nth-child(5) {
+    transition-delay: 800ms;
+}
+
+/* .portfolio-link:nth-child() {
+    transition-delay: 200ms;
+} */
+
 .portfolio-image {
     text-align: center;
     position: relative;
