@@ -16,5 +16,5 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 
-const hiddenElements = document.querySelectorAll('.hidden');
+const hiddenElements = document.querySelectorAll('.hidden, .hidden-portfolio');
 hiddenElements.forEach((el) => observer.observe(el));
