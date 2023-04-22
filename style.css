@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
+    background-image: url(./assets/images/backgroundimage.png);    
     margin: 0px;
     -ms-overflow-style: none;  /* IE and Edge hidden scroll*/
     scrollbar-width: none;  /* Firefox hidden scroll*/
@@ -139,25 +140,30 @@ h4 {
 }
 
 .info-container {
-    margin-top: 60px;
+    margin-top: 10%;
     margin-left: 20%;
     margin-right: 20%;
-    padding: 1rem;
+    padding: 3rem;
     border-radius: 10px;
     color: white;
     border: inset 2pt gray;
+    background-color: rgb(20, 20, 20);
 }
 
 .info-container-portfolio {
-    margin: 60px;
-    padding: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40rem;
+    margin-bottom: 40rem;
+    padding: 3rem;
     border-radius: 10px;
     color: white;
     border: inset 2pt gray;
+    background-color: rgb(20, 20, 20);
 }
 
 .info-container a {
-    color:yellow;
+    color:rgb(144, 52, 201);
     text-decoration: none;
     transition: 0.1s;
 }
@@ -186,33 +192,38 @@ h4 {
 }
 
 .portfolio-link:nth-child(1) {
-    transition-delay: 200ms;
     transition: 1s;
+    transition-delay: 200ms;
 }
 
 .portfolio-link:nth-child(2) {
-    transition-delay: 400ms;
     transition: 1s;
+    transition-delay: 300ms;
 }
 
 .portfolio-link:nth-child(3) {
-    transition-delay: 600ms;
     transition: 1s;
+    transition-delay: 400ms;
 }
 
 .portfolio-link:nth-child(4) {
-    transition-delay: 800ms;
     transition: 1s;
+    transition-delay: 500ms;
 }
 
 .portfolio-link:nth-child(5) {
-    transition-delay: 1000ms;
     transition: 1s;
+    transition-delay: 600ms;
 }
 
 .portfolio-link:nth-child(6) {
-    transition-delay: 1200ms;
     transition: 1s;
+    transition-delay: 700ms;
+}
+
+.portfolio-link:nth-child(7) {
+    transition: 1s;
+    transition-delay: 800ms;
 }
 
 .portfolio-image {
@@ -225,7 +236,7 @@ h4 {
     border-radius: 10px;
     object-fit: cover;
     object-position: left top;
-    border: 2pt solid transparent;
+    border: 4pt solid transparent;
 }
 
 .portfolio-image-Proj {
@@ -238,16 +249,15 @@ h4 {
     border-radius: 10px;
     object-fit: cover;
     object-position: center top;
-    border: 2pt solid transparent;
-
+    border: 4pt solid transparent;
 }
 
 .portfolio-image:hover {
-    border: 2pt solid yellow;
+    border: 4pt solid rgb(144, 52, 201);
 }
 
 .portfolio-image-Proj:hover {
-    border: 2pt solid yellow;
+    border: 4pt solid rgb(144, 52, 201);
 }
 
 #content-wrap {
@@ -277,17 +287,10 @@ h4 {
     transition: all 1s;
 }
 
-.hidden-border {
-    opacity: 0;
-    filter: blur(5px);
-    transition: all 1s;
-}
-
 .hidden-portfolio {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 1s;
 }
 
 .show {
