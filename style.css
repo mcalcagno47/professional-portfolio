@@ -21,6 +21,7 @@ body::-webkit-scrollbar {
     height: 100vh;
 }
 
+/* Parallax dots and background on splash page */
 #menu-items {
     margin-left: clamp(4rem, 20vw, 48rem);
     position: relative;
