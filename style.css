@@ -327,10 +327,11 @@ h4 {
 .image-text {
     position: absolute;
     top: 50%;
+    bottom: 50%;
     width: 100%;
     text-align: center;
     color: white;
-    font-size: 36pt;
+    font-size: xx-large;
     letter-spacing: 8px;
 }
 
