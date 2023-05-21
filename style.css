@@ -77,7 +77,7 @@ body::-webkit-scrollbar {
   }
 
 #menu-background-image {
-    background-image: url(./assets/images/portfolio-picture-1.jpg);
+    background-image: url(./assets/images/background1.jpg);
     background-position: center 40%;
     background-size: cover;
     background-repeat: no-repeat;
