@@ -295,11 +295,11 @@ h4 {
     transform: translateX(-100%);
 } */
 
-.show {
+/* .show {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
-}
+} */
 
 .image1, .image2, .image3 {
     position: relative;
