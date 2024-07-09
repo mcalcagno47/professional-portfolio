@@ -435,3 +435,9 @@ h4 {
         transition: none;
     }
 }
+
+@media only screen and (max-device-width: 1366px) {
+    .portfolio-image {
+      background-attachment: scroll;
+    }
+  }
