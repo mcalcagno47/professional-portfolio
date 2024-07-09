@@ -117,7 +117,7 @@ body::-webkit-scrollbar {
     font-size: clamp(3rem, 8vw, 6rem);
     padding: clamp(0.25rem, 0.5vh, 1rem) 0rem;
     text-decoration: none;
-    transition: opacity 400ms ease;
+    /* transition: opacity 400ms ease; */
 }
 
 #page-container {
