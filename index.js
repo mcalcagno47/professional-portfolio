@@ -6,10 +6,13 @@ Array.from(document.getElementsByClassName("menu-item")).forEach((item, index) =
     }
 });
 
+// Code if you want the transitions to happen every time the element is in view
 // const observer = new IntersectionObserver((entries) => {
 //     entries.forEach((entry) => {
 //         if (entry.isIntersecting) {
 //             entry.target.classList.add('show');
+//         } else {
+//             entry.target.classList.remove('show');
 //         }
 //     });
 // });
@@ -19,7 +22,6 @@ const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
             entry.target.classList.add('show');
-            entry.target.classList.remove('hidden');
         }
     });
 });
